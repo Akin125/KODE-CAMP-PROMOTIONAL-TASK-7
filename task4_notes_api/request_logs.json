@@ -1,0 +1,106 @@
+[
+  {
+    "request_number": 1,
+    "timestamp": "2025-08-30T05:51:06.576030",
+    "method": "GET",
+    "url": "http://localhost:8003/docs",
+    "client_ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "request_number": 2,
+    "timestamp": "2025-08-30T05:51:07.334026",
+    "method": "GET",
+    "url": "http://localhost:8003/openapi.json",
+    "client_ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "request_number": 3,
+    "timestamp": "2025-08-30T05:51:11.802057",
+    "method": "GET",
+    "url": "http://localhost:8003/",
+    "client_ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "request_number": 4,
+    "timestamp": "2025-08-30T05:55:26.248194",
+    "method": "GET",
+    "url": "http://localhost:8003/health",
+    "client_ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "request_number": 5,
+    "timestamp": "2025-08-30T05:55:29.818353",
+    "method": "GET",
+    "url": "http://localhost:8003/health",
+    "client_ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "request_number": 6,
+    "timestamp": "2025-08-30T05:55:59.866150",
+    "method": "GET",
+    "url": "http://localhost:8003/stats",
+    "client_ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "request_number": 7,
+    "timestamp": "2025-08-30T06:06:27.312829",
+    "method": "POST",
+    "url": "http://localhost:8003/notes/",
+    "client_ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "request_number": 8,
+    "timestamp": "2025-08-30T06:06:35.290989",
+    "method": "GET",
+    "url": "http://localhost:8003/notes/?skip=0&limit=100",
+    "client_ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "request_number": 9,
+    "timestamp": "2025-08-30T06:06:44.199454",
+    "method": "GET",
+    "url": "http://localhost:8003/notes/?skip=0&limit=0",
+    "client_ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "request_number": 10,
+    "timestamp": "2025-08-30T06:06:56.800161",
+    "method": "GET",
+    "url": "http://localhost:8003/notes/2",
+    "client_ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "request_number": 11,
+    "timestamp": "2025-08-30T06:07:01.219245",
+    "method": "GET",
+    "url": "http://localhost:8003/notes/1",
+    "client_ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "request_number": 12,
+    "timestamp": "2025-08-30T06:07:19.500008",
+    "method": "PUT",
+    "url": "http://localhost:8003/notes/1",
+    "client_ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "request_number": 13,
+    "timestamp": "2025-08-30T06:07:26.074312",
+    "method": "GET",
+    "url": "http://localhost:8003/notes/1",
+    "client_ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  }
+]
