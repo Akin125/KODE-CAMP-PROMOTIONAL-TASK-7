@@ -1,3 +1,25 @@
+from fastapi import FastAPI, Request, Response
+from fastapi.middleware.cors import CORSMiddleware
+from sqlmodel import SQLModel
+import time
+import logging
+from datetime import datetime
+from .database import engine, create_db_and_tables
+from .routers import students, auth
+from .auth import create_default_user
+
+# Configure logging
+logging.basicConfig(
+    filename="requests.log",
+    level=logging.INFO,
+    format="%(asctime)s - %(message)s"
+)
+logger = logging.getLogger(__name__)
+
+app = FastAPI(
+    title="Student Management System",
+    description="A FastAPI backend for managing students and their grades",
+    version="1.0.0"
 )
 
 # Add CORS middleware
@@ -53,25 +75,3 @@ def root():
 def health_check():
     """Health check endpoint"""
     return {"status": "healthy", "timestamp": datetime.utcnow()}
-from fastapi import FastAPI, Request, Response
-from fastapi.middleware.cors import CORSMiddleware
-from sqlmodel import SQLModel
-import time
-import logging
-from datetime import datetime
-from .database import engine, create_db_and_tables
-from .routers import students, auth
-from .auth import create_default_user
-
-# Configure logging
-logging.basicConfig(
-    filename="requests.log",
-    level=logging.INFO,
-    format="%(asctime)s - %(message)s"
-)
-logger = logging.getLogger(__name__)
-
-app = FastAPI(
-    title="Student Management System",
-    description="A FastAPI backend for managing students and their grades",
-    version="1.0.0"
