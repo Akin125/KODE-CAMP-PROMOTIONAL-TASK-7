@@ -1,0 +1,19 @@
+2025-08-30 04:41:28,782 - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Dell\IntelliJIDEAProjects\KODE-CAMP-PROMOTIONAL-TASK-7\libraryBox\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-08-30 04:41:58,681 - IP: 127.0.0.1 | Method: GET | URL: http://localhost:8000/ | Status: 200 | Time: 0.0030s
+2025-08-30 04:42:01,310 - IP: 127.0.0.1 | Method: GET | URL: http://localhost:8000/favicon.ico | Status: 404 | Time: 0.0000s
+2025-08-30 04:42:11,034 - IP: 127.0.0.1 | Method: GET | URL: http://localhost:8000/docs | Status: 200 | Time: 0.0000s
+2025-08-30 04:42:12,924 - IP: 127.0.0.1 | Method: GET | URL: http://localhost:8000/openapi.json | Status: 200 | Time: 0.0411s
+2025-08-30 04:43:59,734 - IP: 127.0.0.1 | Method: GET | URL: http://localhost:8000/ | Status: 200 | Time: 0.0020s
+2025-08-30 04:44:11,085 - IP: 127.0.0.1 | Method: GET | URL: http://localhost:8000/health | Status: 200 | Time: 0.0010s
+2025-08-30 04:52:18,297 - IP: 127.0.0.1 | Method: POST | URL: http://localhost:8000/auth/login | Status: 401 | Time: 0.0049s
+2025-08-30 04:53:01,679 - IP: 127.0.0.1 | Method: POST | URL: http://localhost:8000/students/ | Status: 403 | Time: 0.0226s
+2025-08-30 04:54:17,835 - IP: 127.0.0.1 | Method: POST | URL: http://localhost:8000/auth/login | Status: 200 | Time: 0.2967s
+2025-08-30 04:54:41,503 - IP: 127.0.0.1 | Method: POST | URL: http://localhost:8000/students/ | Status: 200 | Time: 0.0507s
+2025-08-30 04:55:46,369 - IP: 127.0.0.1 | Method: GET | URL: http://localhost:8000/students/?skip=0&limit=100 | Status: 200 | Time: 0.0074s
+2025-08-30 04:56:40,168 - IP: 127.0.0.1 | Method: POST | URL: http://localhost:8000/students/1/grades | Status: 200 | Time: 0.0182s
+2025-08-30 04:56:59,276 - IP: 127.0.0.1 | Method: GET | URL: http://localhost:8000/students/?skip=0&limit=100 | Status: 200 | Time: 0.0180s
