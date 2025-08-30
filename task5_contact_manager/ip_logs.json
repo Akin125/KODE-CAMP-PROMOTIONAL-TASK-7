@@ -1,0 +1,100 @@
+[
+  {
+    "timestamp": "2025-08-30T06:20:26.509572",
+    "ip_address": "127.0.0.1",
+    "method": "GET",
+    "url": "http://localhost:8004/docs",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-08-30T06:20:33.359867",
+    "ip_address": "127.0.0.1",
+    "method": "GET",
+    "url": "http://localhost:8004/openapi.json",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-08-30T06:20:41.654273",
+    "ip_address": "127.0.0.1",
+    "method": "GET",
+    "url": "http://localhost:8004/health",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-08-30T06:20:51.571979",
+    "ip_address": "127.0.0.1",
+    "method": "GET",
+    "url": "http://localhost:8004/",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-08-30T06:27:04.115972",
+    "ip_address": "127.0.0.1",
+    "method": "GET",
+    "url": "http://localhost:8004/docs",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-08-30T06:27:08.409177",
+    "ip_address": "127.0.0.1",
+    "method": "GET",
+    "url": "http://localhost:8004/openapi.json",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-08-30T06:27:50.793672",
+    "ip_address": "127.0.0.1",
+    "method": "GET",
+    "url": "http://localhost:8004/docs",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-08-30T06:27:51.116918",
+    "ip_address": "127.0.0.1",
+    "method": "GET",
+    "url": "http://localhost:8004/openapi.json",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-08-30T06:27:56.423760",
+    "ip_address": "127.0.0.1",
+    "method": "GET",
+    "url": "http://localhost:8004/logs",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-08-30T06:29:31.880135",
+    "ip_address": "127.0.0.1",
+    "method": "POST",
+    "url": "http://localhost:8004/auth/register",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-08-30T06:29:43.398381",
+    "ip_address": "127.0.0.1",
+    "method": "POST",
+    "url": "http://localhost:8004/auth/login",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-08-30T06:30:05.665353",
+    "ip_address": "127.0.0.1",
+    "method": "GET",
+    "url": "http://localhost:8004/auth/me",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-08-30T06:30:14.488771",
+    "ip_address": "127.0.0.1",
+    "method": "POST",
+    "url": "http://localhost:8004/contacts/",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "2025-08-30T06:30:37.773538",
+    "ip_address": "127.0.0.1",
+    "method": "GET",
+    "url": "http://localhost:8004/logs",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  }
+]

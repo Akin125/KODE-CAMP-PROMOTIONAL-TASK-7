@@ -100,3 +100,15 @@ def health_check():
         "service": "contact-manager-api",
         "timestamp": datetime.utcnow()
     }
+
+
+@app.get("/logs")
+def get_logs():
+    """get logs endpoint"""
+    ip_log_file = "ip_logs.json"
+    if os.path.exists(ip_log_file):
+        with open(ip_log_file, "r") as f:
+            logs = json.load(f)
+            return {"logs": logs}
+    else:
+        return {"logs": [], "message": "No logs found"}

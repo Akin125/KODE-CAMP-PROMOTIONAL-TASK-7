@@ -1,3 +1,18 @@
+from fastapi import APIRouter, Depends, HTTPException, status
+from sqlmodel import Session, select
+from datetime import timedelta
+from ..models import User, UserCreate, UserRead, Token, LoginRequest
+from ..database import get_session
+from ..auth import get_password_hash, authenticate_user, create_access_token, get_current_user, ACCESS_TOKEN_EXPIRE_MINUTES
+
+router = APIRouter(prefix="/auth", tags=["authentication"])
+
+
+@router.post("/register", response_model=UserRead)
+def register_user(
+    user: UserCreate,
+    session: Session = Depends(get_session)
+):
     """Register a new user"""
     # Check if username already exists
     existing_user = session.exec(select(User).where(User.username == user.username)).first()
@@ -40,24 +55,9 @@ def login(
         data={"sub": user.username}, expires_delta=access_token_expires
     )
     return {"access_token": access_token, "token_type": "bearer"}
-from fastapi import APIRouter, Depends, HTTPException, status
+
 
 @router.get("/me", response_model=UserRead)
-def get_current_user_info(current_user: User = Depends(get_current_user)):
+async def get_current_user_info(current_user: User = Depends(get_current_user)):
     """Get current user information"""
     return current_user
-from sqlmodel import Session, select
-from datetime import timedelta
-from ..models import User, UserCreate, UserRead, Token, LoginRequest
-from ..database import get_session
-from ..auth import get_password_hash, authenticate_user, create_access_token, get_current_user, ACCESS_TOKEN_EXPIRE_MINUTES
-
-router = APIRouter(prefix="/auth", tags=["authentication"])
-
-
-@router.post("/register", response_model=UserRead)
-def register_user(
-    user: UserCreate,
-    session: Session = Depends(get_session)
-):
-
